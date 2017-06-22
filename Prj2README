@@ -1,0 +1,16 @@
+Files List of Project2
+
+problem2/expose_page_table/expose_page_table.c			--implementation of expose_page_table system call
+problem2/get_pagetable_layout/get_pagetable_layout.c 	--mplementation of get_pagetable_layout system call
+problem2/get_pagetable_layout/get_pagetable_layout.h 	--included by VATranslate.c
+problem2/kernelfile/pagewalk.c 							--export walk_page_range function
+problem2/VATranslate/VATranslate.c 						--implementation of VATranslate application
+														(the include part of get_pagetable_layout.h should be set according to user himself or herself)
+
+problem3/vm_inspector/vm_inspector.c 					--implementation of vm_inspector application
+problem3/test_application/loc.c 						--used to test vm_inspector application
+
+problem4/kernel_files/mm_types.h 						--modified kernel file
+problem4/kernel_files/swap.c 							--modified kernel file
+problem4/kernel_files/vmscan.c 							--modified kernel file
+problem4/test_application/mal.c 						--used to test new page replacement algorithm
